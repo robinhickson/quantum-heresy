@@ -1,0 +1,156 @@
+.pageWrapper {
+  position: relative;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  font-family: 'Syne', sans-serif;
+  overflow: hidden;
+
+  /* Add flexbox to help position contentBox */
+  display: flex;
+  justify-content: center; /* horizontal centre */
+  align-items: flex-end;   /* vertical align bottom */
+  padding-bottom: 3rem;    /* some space from bottom */
+}
+
+.background {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.bgImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+  pointer-events: none;
+  user-select: none;
+}
+
+.contentBox {
+  position: relative;
+  z-index: 10;
+  max-width: 900px;
+  width: 40%;
+  padding: 2rem 3rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 1.5rem;
+  border: 1px solid rgba(255 255 255 / 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(255 255 255 / 0.1);
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.15em;
+}
+
+.paragraph {
+  font-style: italic;
+  color: #ccc;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.backButton {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #facc15; /* golden yellow */
+  border: 2px solid #facc15;
+  border-radius: 12px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.backButton:hover {
+  background-color: #facc15;
+  color: black;
+}
+.whisperMode {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 25vw;
+  max-width: 300px;
+  background-color: rgba(0, 0, 0, 0.25); /* subtle translucent black */
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  font-family: monospace, monospace;
+  font-size: 0.8rem;
+  color: #c0c0c0;
+  user-select: none;
+  pointer-events: none;
+  filter: brightness(0.85);
+  animation: wobbleInterference 3s ease-in-out infinite;
+  z-index: 1000;
+}
+
+/* Wobble + broken interference flicker */
+@keyframes wobbleInterference {
+  0%, 100% {
+    transform: translate(0, 0) skew(0deg, 0deg);
+    filter: brightness(0.85) contrast(1);
+    opacity: 0.85;
+  }
+  20% {
+    transform: translate(2px, -1px) skew(1deg, 0.5deg);
+    filter: brightness(0.95) contrast(1.1);
+    opacity: 0.9;
+  }
+  40% {
+    transform: translate(-2px, 1px) skew(-1deg, -0.5deg);
+    filter: brightness(0.8) contrast(0.95);
+    opacity: 0.8;
+  }
+  60% {
+    transform: translate(1px, 2px) skew(0.5deg, 1deg);
+    filter: brightness(0.9) contrast(1.05);
+    opacity: 0.85;
+  }
+  80% {
+    transform: translate(-1px, -2px) skew(-0.5deg, -1deg);
+    filter: brightness(0.8) contrast(0.9);
+    opacity: 0.8;
+  }
+
+
+}
+
+  .emailWrapper {
+  margin-top: 2rem; /* vertical separation from preceding text */
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  display: inline-block; /* shrinkwrap to button */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.emailButton {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.125rem;
+  transition: color 0.3s ease;
+}
+
+.emailButton:hover {
+  color: #ffe066; /* golden highlight on hover */
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centre horizontally */
+  gap: 1.5rem; /* vertical space between buttons */
+  margin-top: 2rem;
+}
