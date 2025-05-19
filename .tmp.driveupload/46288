@@ -1,0 +1,76 @@
+/* Global resets */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+  font-family: 'Syne', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Golden shimmer text effect */
+.shimmer {
+  position: relative;
+  font-weight: 900;
+  color: #facc15;
+  background: linear-gradient(
+    90deg,
+    #facc15 25%,
+    #fff8b0 50%,
+    #facc15 75%
+  );
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer-glimmer 3s linear infinite;
+}
+
+@keyframes shimmer-glimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* Utility classes */
+
+.text-center {
+  text-align: center;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-gray-300 {
+  color: #d1d5db;
+}
+
+.text-yellow-300 {
+  color: #facc15;
+}
+
+.text-yellow-100 {
+  color: #fef3c7;
+}
+
+/* Buttons and links */
+button, a {
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+button:focus, a:focus {
+  outline: 2px solid #facc15;
+  outline-offset: 2px;
+}
