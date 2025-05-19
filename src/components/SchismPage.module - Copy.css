@@ -1,0 +1,49 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+  max-width: 95vw;
+  margin: 4rem auto 0 auto;
+  padding: 0 1rem;
+  height: 80vh;
+  align-items: center; /* vertical centre grid items */
+}
+
+.boxTopLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* vertical centre content inside box */
+}
+
+.boxTopRight {
+  /* your existing styles preserved */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  font-family: 'Syne', sans-serif;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+/* keep the rest of your styles unchanged */
+
+.contentBoxExcerpt {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-family: 'Syne', sans-serif;
+  font-size: 1rem;
+  color: white;
+  line-height: 1.5;
+  text-align: justify;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  padding: 1rem;
+}
+
+/* Other boxes and styles remain exactly as you had them */

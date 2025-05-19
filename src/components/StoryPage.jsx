@@ -17,14 +17,22 @@ export default function StoryPage() {
       </div>
 
       <div className={styles.contentBox}>
-        <ShimmerText className={styles.title}>The Story</ShimmerText>
+        <ShimmerText className={styles.title}>Story</ShimmerText>
 
         <p className={styles.paragraph}>
-          A myth written across the skin of a quantum singularity.
-          <br />
-          A tribe that speaks to beasts.
-          <br />
-          A god who can't remember if it was ever real.
+          <strong>SCHISM</strong> unfolds in a universe ruled by the strange laws of quantum uncertainty, where the very act of observation doesn’t merely reveal reality — it creates it. Consciousness and cosmos are entwined in a delicate dance, collapsing infinite possibilities into singular moments that shape destinies.
+        </p>
+
+        <p className={styles.paragraph}>
+          At its heart lies the Eye — a quantum observer, both legend and mechanism — whose gaze fractures time and space, compelling civilizations to confront the fragile boundary between fate and free will. Ancient gods stir within quantum fields as tribal souls awaken to vast cosmic truths, each choice sending ripples across existence.
+        </p>
+
+        <p className={styles.paragraph}>
+          Melding hard science with raw human emotion, Schism probes how the observer effect mirrors our own decisions, how uncertainty breeds both dread and liberation, and how the quantum fabric of reality reflects the turmoil within us all.
+        </p>
+
+        <p className={styles.paragraph}>
+          Inspired by Tchaikovsky’s grand vision and Banks’ rich characterisation, Schism is a cerebral yet profoundly human journey into a universe where science and spirit collide — and where the future hinges on who, or what, is watching.
         </p>
 
         <button

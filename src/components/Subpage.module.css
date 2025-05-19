@@ -32,7 +32,7 @@
   position: relative;
   z-index: 10;
   max-width: 900px;
-  width: 40%;
+  width: 75%;
   padding: 2rem 3rem;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 1.5rem;
@@ -52,7 +52,7 @@
 .paragraph {
   font-style: italic;
   color: #ccc;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 2rem;
 }
@@ -154,3 +154,49 @@
   gap: 1.5rem; /* vertical space between buttons */
   margin-top: 2rem;
 }
+
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 1.5rem;
+  position: relative;
+  width: 100%;
+}
+
+.boxTopLeft {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.boxTopRight {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.boxBottomLeft {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.boxBottomRight {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.imageBox {
+  max-width: 100%;
+  height: auto;
+  display: block;
+padding:1rem;
+}
+
+/* Ensure contentBox has position: relative for absolute button */
+.contentBox {
+  position: relative;
+  padding: 2rem;
+  max-width: 900px; /* or your preferred max width */
+  margin: 0 auto;
+}
+

@@ -36,14 +36,13 @@ export default function ContactPage() {
 
         <p className={styles.paragraph}>
           Want to whisper back into the Void?
-          <br />
-          Or maybe just say hello?
+         
         </p>
 {/* ...existing code... */}
 <div className={styles.buttonsContainer}>
 <div className={styles.emailWrapper}>
   <a
-    href="mailto:robin@quantumheresy.com"
+    href="mailto:robinkhickson@gmail.com"
     className={styles.emailButton}
   >
     Email me

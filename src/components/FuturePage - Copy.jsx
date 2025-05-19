@@ -10,7 +10,7 @@ export default function FuturePage() {
     <div className={styles.pageWrapper}>
       <div className={styles.background}>
         <img
-          src="https://res.cloudinary.com/robinkhickson/image/upload/v1747426278/Desk-study_d8bgem.png"
+          src="https://res.cloudinary.com/robinkhickson/image/upload/v1747426324/Schism-spiral-fullpage_q8tsrk.png"
           alt="Future Background"
           className={styles.bgImage}
         />
@@ -20,28 +20,19 @@ export default function FuturePage() {
         <ShimmerText className={styles.title}>Future</ShimmerText>
 
         <p className={styles.paragraph}>
-          After all, it's one thing to process the colour of a traffic light, but quite another to experience its redness. <br />
-          Dr Tom McClelland, Cambridge University
-                  </p>
+         After all, it's one thing to process the colour of a traffic light, but quite another to experience its redness. 
+Dr Tom McClelland, Cambridge University
 
-      
+          <br />
+          "But with regard to the material world, we can at least go so far as this—we can perceive that events are brought about not by insulated interpositions of Divine power, exerted in each particular case, but by the establishment of general laws." 
+Whewell: Bridgewater Treatise.
+        </p>
 
-        {/* Existing Back to Menu button */}
         <button
           onClick={() => navigate("/?menu=true")}
           className={styles.backButton}
-          style={{ marginTop: 0 }}
         >
           ← Back to Menu
-        </button>
-
-  {/* New Explore Schism button */}
-        <button
-          onClick={() => navigate("/schism")}
-          className={styles.backButton}
-          style={{ marginBottom: "1.5rem" }}
-        >
-          Explore Schism →
         </button>
       </div>
     </div>

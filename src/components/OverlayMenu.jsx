@@ -25,7 +25,7 @@ export default function OverlayMenu({ onClose }) {
       <ul className={styles.menuList}>
         <li>
           <Link to="/story" className={`${styles.menuLink} ${styles.shimmerText}`}>
-            The Story
+            Story
           </Link>
         </li>
         <li>
@@ -35,7 +35,7 @@ export default function OverlayMenu({ onClose }) {
         </li>
         <li>
           <Link to="/future" className={`${styles.menuLink} ${styles.shimmerText}`}>
-            In the Future
+            Future
           </Link>
         </li>
         <li>

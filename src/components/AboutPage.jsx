@@ -20,13 +20,12 @@ export default function AboutPage() {
       {/* Content Container */}
       <div className={styles.contentBox}>
         <ShimmerText className={styles.title}>
-          About the Author
+         Robin K Hickson
         </ShimmerText>
 
         <p className={styles.paragraph}>
-          Former air traffic controller. Lifelong scribbler. Accidental mythographer.
-          <br />
-          Robin Hickson writes philosophical science fiction for people who suspect reality might be lying to them.
+          Qualified lawyer. Former air traffic controller. Lifelong scribbler.           <br />
+          Robin K Hickson writes philosophical science fiction for people who suspect reality might be lying to them.
         </p>
 
         <button

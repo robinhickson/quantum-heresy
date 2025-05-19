@@ -7,6 +7,8 @@ import ContactPage from "./components/ContactPage";
 import FuturePage from "./components/FuturePage";
 import StoryPage from "./components/StoryPage";
 import OverlayMenu from "./components/OverlayMenu";
+import SchismPage from "./components/SchismPage";
+
 
 export default function App() {
   const location = useLocation();
@@ -38,6 +40,8 @@ export default function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/future" element={<FuturePage />} />
         <Route path="/story" element={<StoryPage />} />
+	<Route path="/schism" element={<SchismPage />} />
+
       </Routes>
     </>
   );
