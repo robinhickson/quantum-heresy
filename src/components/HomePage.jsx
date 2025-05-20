@@ -11,7 +11,7 @@ const images = [
     alt: "Esha's Eye",
   },
   {
-    src: "https://res.cloudinary.com/robinkhickson/image/upload/v1747429719/black-hole-large-accretion_ymdxb7.png",
+    src: "https://res.cloudinary.com/robinkhickson/image/upload/v1747768581/Cosmic_Vortex_of_Light_and_Darkness_vcxy3y.png",
     alt: "Black Hole",
   },
 ];

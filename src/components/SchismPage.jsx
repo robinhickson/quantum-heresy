@@ -10,8 +10,8 @@ export default function SchismPage() {
       <div className={styles.gridContainer}>
         <div className={styles.boxTopLeft}>
           <img
-            src="https://res.cloudinary.com/robinkhickson/image/upload/v1747426275/Esha-and-daughter-neolithic_vawkbe.png"
-            alt="Schism Spiral"
+            src="https://res.cloudinary.com/robinkhickson/image/upload/v1747426340/the_esha_yxzspg.png"
+            alt="Esha"
             style={{ maxWidth: "100%", maxHeight: "100%" }}
           />
         </div>
@@ -42,9 +42,11 @@ export default function SchismPage() {
             She pressed her nose, her mouth against his, and the fight left him—but
             not the strength. He grinned, breathless.
           </p>
-          <p>“We smell like fish and seaweed,” he muttered.</p>
+          <p>“I-".</p>
           <p>
-            Esha snorted, accidentally inhaling his hair. “Don’t ruin it,” she
+            Esha put a finger to his lips.
+</p>
+<p>“Shsh. Don’t ruin it,” she
             whispered, laughing into his neck.
           </p>
           <p>
@@ -73,7 +75,7 @@ export default function SchismPage() {
         <div className={styles.boxBottomRight}>
           <img
             src="https://res.cloudinary.com/robinkhickson/image/upload/v1747426301/Homeworld_odgpra.png"
-            alt="Schism Visual"
+            alt="Schism Homeworld"
             style={{ maxWidth: "100%", maxHeight: "100%" }}
           />
         </div>
