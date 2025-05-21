@@ -74,7 +74,7 @@ export default function SchismPage() {
 
         <div className={styles.boxBottomRight}>
           <img
-            src="https://res.cloudinary.com/robinkhickson/image/upload/v1747426301/Homeworld_odgpra.png"
+            src="https://res.cloudinary.com/robinkhickson/image/upload/v1747821700/People_of_the_Darkness1_r2bkm2.jpg"
             alt="Schism Homeworld"
             style={{ maxWidth: "100%", maxHeight: "100%" }}
           />
