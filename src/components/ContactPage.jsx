@@ -20,7 +20,7 @@ export default function ContactPage() {
     <div className={styles.pageWrapper}>
       <div className={styles.background}>
         <img
-          src="https://res.cloudinary.com/robinkhickson/image/upload/v1747426307/Strong-spiral_npewre.png"
+          src="https://res.cloudinary.com/robinkhickson/image/upload/v1747768580/ChatGPT_Image_May_20_2025_04_42_02_PM_ttqr5u.png"
           alt="Contact Background"
           className={styles.bgImage}
         />

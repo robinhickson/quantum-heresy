@@ -10,7 +10,7 @@ export default function FuturePage() {
     <div className={styles.pageWrapper}>
       <div className={styles.background}>
         <img
-          src="https://res.cloudinary.com/robinkhickson/image/upload/v1747768580/ChatGPT_Image_May_20_2025_04_42_02_PM_ttqr5u.png"
+          src="https://res.cloudinary.com/robinkhickson/image/upload/v1747808062/Esha_daughter_profile_Close_nnzr42.jpg"
           alt="Future Background"
           className={styles.bgImage}
         />
